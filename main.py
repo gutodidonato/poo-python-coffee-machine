@@ -1,6 +1,7 @@
 from menu import Menu, MenuItem
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
+from art import logo
 
 money_machine = MoneyMachine()
 coffee_maker = CoffeeMaker()
@@ -21,7 +22,7 @@ def checar_bebida(drink):
 
 
     
-
+print(logo)
 while True:
     consumer = input("You are a consumer? ")
     if consumer == "no":
